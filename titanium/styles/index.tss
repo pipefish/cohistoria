@@ -8,7 +8,7 @@
 	scrollType: 'vertical',
 	layout: "vertical",
 	width: Ti.UI.FILL,
-	height: 510,
+	height: 530,
 	contentWidth: "auto",
 	contentHeight: "auto",
 	zIndex: 1

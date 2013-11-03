@@ -85,7 +85,7 @@
 	    colors: [ { color: '#484848', offset: 0.0}, { color: '#373737', offset: 0.0 } ],
 	},
 	textAlign: "left",
-	top: 20
+	top: 40
 },
 
 ".nav-camera": {

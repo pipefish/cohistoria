@@ -1,7 +1,7 @@
 function goThread(e) {
 	var thread = Alloy.createController('thread');
-	thread.getView().open();
-	$.index.close();
+  	thread.getView().open();
+  	$.index.close();
 }
 
 function goForm(e) {
