@@ -30,7 +30,7 @@ var Thread = mongoose.model('Thread', threadSchema);
 app.use(express.bodyParser());
 app.use(express.query());
 app.use(express.logger());
-app.use(express.static('./public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // define routes
 app.post('/new', function(req, res) {
