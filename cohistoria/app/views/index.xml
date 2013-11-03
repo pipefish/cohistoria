@@ -1,5 +1,24 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<ScrollView id="threads">
+			<View class="thread">
+				<Label class="thread-title">Biltmore Hotel</Label>
+				<ImageView class="thread-image" image="images/biltmore.jpg" />
+				<Button class="thread-button" onClick="clickImage">View Image</Button>
+			</View>
+			<View class="thread">
+				<Label class="thread-title">Georgia Tech</Label>
+				<ImageView class="thread-image" image="images/gatech.jpg" />
+				<Button class="thread-button" onClick="clickImage">View Image</Button>
+			</View>
+			<View class="thread">
+				<Label class="thread-title">Tech Square</Label>
+				<ImageView class="thread-image" image="images/techsquare.jpg" />
+				<Button class="thread-button" onClick="clickImage">View Image</Button>
+			</View>
+		</ScrollView>
+		<ButtonBar id="nav">
+			<Button class="nav-create">Create New Photo Thread</Button>
+		</ButtonBar>
 	</Window>
 </Alloy>
