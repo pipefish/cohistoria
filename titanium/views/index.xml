@@ -1,7 +1,9 @@
 <Alloy>
 	<Window class="container" id="index">
 		<ScrollView id="threads">
-			<ImageView class="logo"></ImageView>
+			<View class="logo-wrapper">
+				<ImageView class="logo"></ImageView>
+			</View>
 			<View class="thread">
 				<Label class="thread-title">Piedmont Park</Label>
 				<ImageView class="thread-image" image="images/piedmontpark.jpg" />
