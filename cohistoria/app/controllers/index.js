@@ -1,7 +1,13 @@
-var thread = Alloy.createController('thread').getView();
+function goThread(e) {
+	var thread = Alloy.createController('thread');
+	thread.getView().open();
+	$.index.close();
+}
 
-function clickImage(e) {
-	$.index.animate({view: thread, transition: Ti.UI.iPhone.AnimationStyle.FLIP_FROM_LEFT});
+function goForm(e) {
+	var form = Alloy.createController('form');
+	form.getView().open();
+	$.index.close();
 }
 
 $.index.open();

@@ -1,5 +1,13 @@
 <Alloy>
-	<View class="container">
-		<Label>Test</Label>
-	</View>
+	<Window class="container" id="thread">
+		<ButtonBar id="navTop">
+			<Button class="nav-back" onClick="goBack">Back</Button>
+		</ButtonBar>
+		<ScrollView id="picture">
+			<ImageView class="thread-image" image="images/stitched.jpg" />
+		</ScrollView>
+		<ButtonBar id="navBottom">
+			<Button class="nav-create" onClick="goAdd">Add to Photo Thread</Button>
+		</ButtonBar>
+	</Window>
 </Alloy>

@@ -1,9 +1,13 @@
 <Alloy>
-	<View class="container">
-		<TextField id="textField"></TextField>
-		<ImageView class="camera"></ImageView>
-		<ButtonBar id="nav">
-			<Button class="nav-camera">Take a Picture</Button>
+	<Window class="container" id="form">
+		<ButtonBar id="navTop">
+			<Button class="nav-back" onClick="goBack">Back</Button>
 		</ButtonBar>
-	</View>
+		<Label class="label">Create a title for your thread</Label>
+		<TextField class="text"></TextField>
+		<ImageView class="camera" onClick="takePicture"></ImageView>
+		<ButtonBar id="nav">
+			<Button class="nav-camera" onClick="submitThread">Submit Thread</Button>
+		</ButtonBar>
+	</Window>
 </Alloy>
