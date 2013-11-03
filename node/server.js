@@ -15,6 +15,8 @@ mongoose.connection.on('error', function (err) {
 });
 mongoose.connect(config.db);
 
+// /usr/local/projects/graphlab2/graphlab/release/toolkits/computer_vision/stich
+
 // define models
 var threadSchema = mongoose.Schema({
 	title: String,
