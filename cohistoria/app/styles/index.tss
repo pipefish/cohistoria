@@ -30,7 +30,7 @@
 		fontWeight: 'semibold',
 		fontFamily: 'Helvetica Neue'
 	},
-	textAlign: 'center'
+	textAlign: 'left'
 },
 
 ".thread-image": {
