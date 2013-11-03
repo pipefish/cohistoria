@@ -1,0 +1,101 @@
+"Window": {
+	backgroundColor: "#ededed",
+	layout: "vertical",
+	fullscreen: true
+},
+
+"#picture": {
+	scrollType: 'horizontal',
+	layout: "horizontal",
+	width: Ti.UI.FILL,
+	height: 470,
+	contentWidth: "auto",
+	contentHeight: "auto",
+	top: 0
+},
+
+".thread-image": {
+	width: 2500,
+	height: 470
+},
+
+"#navTop": {
+	width: "100%",
+	height: 40,
+	backgroundGradient: {
+	    type: 'linear',
+	    startPoint: { x: '0%', y: '0%' },
+	    endPoint: { x: '0%', y: '100%' },
+	    colors: [ { color: '#484848', offset: 0.0}, { color: '#373737', offset: 0.0 } ],
+	},
+	textAlign: "left"
+},
+
+".nav-back": {
+	color: "#fff",
+	font: {
+		fontSize: 14,
+		fontWeight: 'normal',
+		fontFamily: 'Helvetica Neue'
+	},
+	width: "100%"
+},
+
+".ico-back-text": {
+	color: "#fff",
+	font: {
+		fontSize: 14,
+		fontWeight: 'normal',
+		fontFamily: 'Helvetica Neue'
+	},
+	width: "50%",
+	height: 40,
+	left: 60
+},
+
+".ico-back": {
+	backgroundImage: 'images/icoback.png',
+	width: 30,
+	height: 30,
+	left: 20
+},
+
+"#navBottom": {
+	width: "100%",
+	height: 40,
+	backgroundGradient: {
+	    type: 'linear',
+	    startPoint: { x: '0%', y: '0%' },
+	    endPoint: { x: '0%', y: '100%' },
+	    colors: [ { color: '#484848', offset: 0.0}, { color: '#373737', offset: 0.0 } ],
+	},
+	textAlign: "left"
+},
+
+".nav-create": {
+	color: "#fff",
+	font: {
+		fontSize: 14,
+		fontWeight: 'normal',
+		fontFamily: 'Helvetica Neue'
+	}
+},
+
+".ico-add-text": {
+	color: "#fff",
+	font: {
+		fontSize: 14,
+		fontWeight: 'normal',
+		fontFamily: 'Helvetica Neue'
+	},
+	width: "70%",
+	height: 40,
+	left: 40
+},
+
+".ico-add": {
+	backgroundImage: 'images/icoadd.png',
+	width: 30,
+	height: 30,
+	right: 40
+},

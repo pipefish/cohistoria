@@ -1,0 +1,19 @@
+<Alloy>
+	<Window class="container" id="form">
+		<ButtonBar id="navTop">
+			<Button class="nav-back" onClick="goBack">
+				<Label class="ico-back"></Label>
+				<Label class="ico-back-text">Back</Label>
+			</Button>
+		</ButtonBar>
+		<Label class="label">Create a title for your thread</Label>
+		<TextField class="text"></TextField>
+		<ImageView class="camera" onClick="takePicture"></ImageView>
+		<ButtonBar id="nav">
+			<Button class="nav-camera" onClick="submitThread">
+				<Label class="ico-submit-text">Create Photo Thread</Label>
+				<Label class="ico-submit"></Label>
+			</Button>
+		</ButtonBar>
+	</Window>
+</Alloy>

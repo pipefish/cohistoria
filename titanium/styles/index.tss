@@ -1,0 +1,115 @@
+"Window": {
+	backgroundColor: "#ededed",
+	layout: "vertical",
+	fullscreen: true
+},
+
+"#threads": {
+	scrollType: 'vertical',
+	layout: "vertical",
+	width: Ti.UI.FILL,
+	height: 510,
+	contentWidth: "auto",
+	contentHeight: "auto",
+	zIndex: 1
+},
+
+".logo": {
+	image: 'images/logo.png',
+	width: 148,
+	height: 30,
+	top: 15
+},
+
+".thread": {
+	width: "100%",
+	height: 380,
+	top: 20
+},
+
+".thread-title": {
+	width: "100%",
+	height: 40,
+	top: 0,
+	backgroundColor: "#fff",
+	color:'#000',
+	font: {
+		fontSize: 14,
+		fontWeight: 'semibold',
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+},
+
+".thread-image": {
+	width: "100%",
+	height: 300,
+	top: 40
+},
+
+".thread-button": {
+	width: "100%",
+	height: 40,
+	top: 340,
+	backgroundColor: "#fff",
+	borderBottom: "true",
+	borderColor: "#ccc",
+	color:'#000',
+	font: {
+		fontSize: 14,
+		fontWeight: 'normal',
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'left'
+},
+
+"#nav": {
+	width: "100%",
+	height: 40,
+	backgroundGradient: {
+	    type: 'linear',
+	    startPoint: { x: '0%', y: '0%' },
+	    endPoint: { x: '0%', y: '100%' },
+	    colors: [ { color: '#484848', offset: 0.0}, { color: '#373737', offset: 0.0 } ],
+	},
+	top: 0
+},
+
+".nav-create": {
+	color: "#fff",
+	font: {
+		fontSize: 14,
+		fontWeight: 'normal',
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'left',
+	width: "100%",
+	height: 40
+},
+
+".ico-thread-text": {
+	color: "#fff",
+	font: {
+		fontSize: 14,
+		fontWeight: 'normal',
+		fontFamily: 'Helvetica Neue'
+	},
+	width: "60%",
+	height: 40,
+	left: 40
+},
+
+".ico-thread": {
+	backgroundImage: 'images/icothread.png',
+	width: 66,
+	height: 30,
+	right: 40
+},
+
+".ico-view-thread": {
+	backgroundImage: 'images/icoview.png',
+	width: 30,
+	height: 30,
+	right: 10
+}
+

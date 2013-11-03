@@ -1,0 +1,33 @@
+<Alloy>
+	<Window class="container" id="index">
+		<ScrollView id="threads">
+			<ImageView class="logo"></ImageView>
+			<View class="thread">
+				<Label class="thread-title">Biltmore Hotel</Label>
+				<ImageView class="thread-image" image="images/biltmore.jpg" />
+				<Button class="thread-button" onClick="goThread">View Image <Label class="ico-view-thread"></Label></Button>
+			</View>
+			<View class="thread">
+				<Label class="thread-title">Piedmont Park</Label>
+				<ImageView class="thread-image" image="images/piedmontpark.jpg" />
+				<Button class="thread-button" onClick="goThread">View Image <Label class="ico-view-thread"></Label></Button>
+			</View>
+			<View class="thread">
+				<Label class="thread-title">Georgia Tech</Label>
+				<ImageView class="thread-image" image="images/gatech.jpg" />
+				<Button class="thread-button" onClick="goThread">View Image <Label class="ico-view-thread"></Label></Button>
+			</View>
+			<View class="thread">
+				<Label class="thread-title">Tech Square</Label>
+				<ImageView class="thread-image" image="images/techsquare.jpg" />
+				<Button class="thread-button" onClick="goThread">View Image <Label class="ico-view-thread"></Label></Button>
+			</View>
+		</ScrollView>
+		<ButtonBar id="nav">
+			<Button class="nav-create" onClick="goForm">
+				<Label class="ico-thread-text">Create New Photo Thread</Label>
+				<Label class="ico-thread"></Label>
+			</Button>
+		</ButtonBar>
+	</Window>
+</Alloy>

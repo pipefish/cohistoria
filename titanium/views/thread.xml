@@ -1,0 +1,19 @@
+<Alloy>
+	<Window class="container" id="thread">
+		<ButtonBar id="navTop">
+			<Button class="nav-back" onClick="goBack">
+				<Label class="ico-back"></Label>
+				<Label class="ico-back-text">Back</Label>
+			</Button>
+		</ButtonBar>
+		<ScrollView id="picture">
+			<ImageView class="thread-image" image="images/stitched.jpg" />
+		</ScrollView>
+		<ButtonBar id="navBottom">
+			<Button class="nav-create" onClick="goAdd">
+				<Label class="ico-add-text">Add to Photo Thread</Label>
+				<Label class="ico-add"></Label>
+			</Button>
+		</ButtonBar>
+	</Window>
+</Alloy>
