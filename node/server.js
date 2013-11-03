@@ -15,7 +15,7 @@ mongoose.connection.on('error', function (err) {
 });
 mongoose.connect(config.db);
 
-// /usr/local/projects/graphlab2/graphlab/release/toolkits/computer_vision/stich
+// /usr/local/projects/graphlab2/graphlab/release/toolkits/computer_vision/stitch --img ~/github/cohistoria/test/images/ --graph ~/github/cohistoria/test/list.txt --output ~/github/cohistoria/node/public/
 
 // define models
 var threadSchema = mongoose.Schema({
