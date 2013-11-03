@@ -1,0 +1,20 @@
+Logfile initialized
+[INFO] logfile = /Users/kfuruya/Documents/cohistoria/build.log
+[INFO] logfile = /Users/kfuruya/Documents/cohistoria/build.log
+[DEBUG] /Users/kfuruya/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/android/builder.py emulator cohistoria /Applications/Titanium Studio /Users/kfuruya/Documents/cohistoria com.pipefish.cohistoria 2 WVGA854 armeabi
+[DEBUG] /Users/kfuruya/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/android/builder.py simulator cohistoria /Applications/Titanium Studio /Users/kfuruya/Documents/cohistoria com.pipefish.cohistoria 2 WVGA854
+[INFO] Launching Android emulator...one moment
+[DEBUG] From: /Applications/Titanium Studio/tools/emulator
+[DEBUG] SDCard: /Users/kfuruya/.titanium/android2.sdcard
+[DEBUG] AVD ID: 2
+[DEBUG] AVD Skin: WVGA854
+[DEBUG] AVD ABI: armeabi
+[DEBUG] SDK: /Applications/Titanium Studio
+[INFO] Building cohistoria for Android ... one moment
+[INFO] plugin=/Users/kfuruya/Library/Application Support/Titanium/plugins/ti.alloy/1.0/plugin.py
+[INFO] Detected compiler plugin: ti.alloy/1.0
+[INFO] Titanium SDK version: 3.1.3 (09/18/13 12:00 222f4d1)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 0 devices/emulators
+[DEBUG] /Applications/Titanium Studio/tools/emulator -avd titanium_2_WVGA854 -port 5560 -sdcard /Users/kfuruya/.titanium/titanium_2_WVGA854.sdcard -logcat *:d,*,TiAPI:V -no-boot-anim -partition-size 128
+[INFO] Android Emulator has exited
