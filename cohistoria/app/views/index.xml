@@ -7,6 +7,11 @@
 				<Button class="thread-button" onClick="clickImage">View Image</Button>
 			</View>
 			<View class="thread">
+				<Label class="thread-title">Piedmont Park</Label>
+				<ImageView class="thread-image" image="images/techsquare.jpg" />
+				<Button class="thread-button" onClick="clickImage">View Image</Button>
+			</View>
+			<View class="thread">
 				<Label class="thread-title">Georgia Tech</Label>
 				<ImageView class="thread-image" image="images/gatech.jpg" />
 				<Button class="thread-button" onClick="clickImage">View Image</Button>
