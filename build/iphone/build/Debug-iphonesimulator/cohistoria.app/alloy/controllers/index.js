@@ -1,0 +1,1 @@
+/Users/kfuruya/Documents/cohistoria/Resources/alloy/controllers/index.js

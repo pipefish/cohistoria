@@ -1,0 +1,3 @@
+python imgstitch.py endfile.jpg inputfileLeft.jpg inputfileRight.jpg
+
+Soon to also accept .png
