@@ -1,0 +1,9 @@
+<Alloy>
+	<View class="container">
+		<TextField id="textField"></TextField>
+		<ImageView class="camera"></ImageView>
+		<ButtonBar id="nav">
+			<Button class="nav-camera">Take a Picture</Button>
+		</ButtonBar>
+	</View>
+</Alloy>

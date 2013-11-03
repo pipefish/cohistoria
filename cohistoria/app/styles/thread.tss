@@ -1,4 +1,4 @@
-
-".container" : {
-  
-}
+"Window": {
+	backgroundColor: "#ededed",
+	layout: "vertical"
+},

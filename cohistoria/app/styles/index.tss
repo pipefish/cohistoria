@@ -1,5 +1,5 @@
 "Window": {
-	backgroundColor: "#333",
+	backgroundColor: "#ededed",
 	layout: "vertical"
 },
 
